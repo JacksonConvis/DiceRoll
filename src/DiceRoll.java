@@ -11,8 +11,8 @@ public class DiceRoll {
 			System.out.println("Enter sides for a pair of dice");
 			int sides = scan.nextInt();
 
-			int die1 = (int) (sides * Math.random());
-			int die2 = (int) (sides * Math.random());
+			int die1 = (int) (sides * Math.random()+ 1);
+			int die2 = (int) (sides * Math.random()+ 1);
 			System.out.println("Roll Result:" + "\n" + die1 + "\n" + die2);
 			System.out.println("Do you wish to continue? (y/n)");
 			choice = scan.next();
